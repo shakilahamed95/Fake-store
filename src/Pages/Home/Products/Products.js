@@ -11,7 +11,7 @@ const Products = () => {
     }, [])
     return (
         <div className='container'>
-            <h2 className='text-primary text-center mt-5'>Our Total Products={products.length}</h2>
+            <h2 className='text-primary text-center mt-5'>Our Products</h2>
             <div className='product-container'>
                 {
                     products.map(product => <Product
