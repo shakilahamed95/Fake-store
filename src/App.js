@@ -6,7 +6,7 @@ import ProductDetail from './Pages/ProductDetail/ProductDetail';
 
 function App() {
   return (
-    <div>
+    <div className='section'>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
