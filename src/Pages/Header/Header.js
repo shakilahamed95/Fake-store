@@ -17,7 +17,10 @@ const Header = () => {
                                 <Link class="nav-link active" aria-current="page" as={Link} to="/home">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" as={Link} to="home#product">Product</Link>
+                                <Link class="nav-link active" aria-current="page" as={Link} to="/home#product">Product</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link active" aria-current="page" as={Link} to="/contact-us">Contact Us</Link>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
