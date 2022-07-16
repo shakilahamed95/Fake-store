@@ -12,7 +12,7 @@ const ProductDetail = () => {
     }, [])
     return (
         <div>
-            <h2 className='Text-primary text-center mt-5'> Product Details</h2>
+            <h2 className='text-primary text-center mt-5'> Product Details</h2>
             <div className='d-flex justify-content-center align-items-center'>
                 <div className="card mb-3 mt-5" style={{ width: "1000px", }}>
                     <div className="row g-0">
