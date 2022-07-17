@@ -12,9 +12,9 @@ const Form = () => {
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
-                <input class="form-control" type="email" ref={ref} placeholder="PLEASE ENTER YOUR EMAIL" />
+                <input className="form-control" type="email" ref={ref} placeholder="PLEASE ENTER YOUR EMAIL" />
                 <br />
-                <button onClick={handleRemove} class="btn btn-primary" type='submit'>SUBMIT</button>
+                <button onClick={handleRemove} className="btn btn-primary" type='submit'>SUBMIT</button>
             </div>
         </div>
     );

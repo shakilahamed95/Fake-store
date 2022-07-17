@@ -27,7 +27,7 @@ const ProductDetail = () => {
                                 <h5>Price: ${productDetails.price}</h5>
                                 <h5>Rating: {productDetails.rating?.rate}  <i className="fa-solid fa-star"></i></h5>
                                 <h5>Rated by: {productDetails.rating?.count} People</h5>
-                                <button className='btn btn-primary'> Buy Now  <i class="fa-solid fa-cart-arrow-down"></i></button>
+                                <button className='btn btn-primary'> Buy Now  <i className="fa-solid fa-cart-arrow-down"></i></button>
                             </div>
                         </div>
                     </div>

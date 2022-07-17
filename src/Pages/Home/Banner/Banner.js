@@ -3,7 +3,7 @@ import './Bnner.css'
 
 const Banner = () => {
     return (
-        <div>
+        <div id='home'>
             <div className='background-img  d-flex justify-content-center align-items-center text-white '>
                 <div>
                     <h2 className='text'>We Believe In</h2>
