@@ -17,16 +17,16 @@ const Header = () => {
                                 <Link class="nav-link navigation active" aria-current="page" as={Link} to="/home">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" as={Link} to="/home#product">Product</Link>
+                                <a href="home#products" className='nav-link active'>Product</a>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link active" aria-current="page" as={Link} to="/contact-us">Contact-Us</Link>
                             </li>
                         </ul>
-                        <form class="d-flex" role="search">
+                        <div class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                             <button class="btn btn-outline-primary" type="submit">Search</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </nav>

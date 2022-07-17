@@ -17,7 +17,7 @@ const ProductDetail = () => {
                 <div className="card mb-3 mt-5" style={{ width: "1000px", }}>
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src={productDetails.image} className="img-fluid rounded-start" alt="..." />
+                            <img src={productDetails.image} className="img-fluid rounded-start img" alt="..." />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body ms-5">

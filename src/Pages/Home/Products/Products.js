@@ -11,7 +11,7 @@ const Products = () => {
     }, [])
 
     return (
-        <div id='product' className='container mb-5'>
+        <div id='products' className='container mb-5'>
             <h2 className='text-primary text-center mt-5'>Our Products</h2>
             <div className='product-container'>
                 {
