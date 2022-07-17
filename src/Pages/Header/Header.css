@@ -1,3 +1,13 @@
 .navbar-nav customlink {
     margin-right: 10px;
 }
+
+.navigation {
+    margin-left: 550px;
+}
+
+.navbar {
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #F3F1FF;
+}

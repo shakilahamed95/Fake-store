@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav className="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <Link class="navbar-brand ms-5" as={Link} to="/">Fake Store</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,13 +14,13 @@ const Header = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" as={Link} to="/home">Home</Link>
+                                <Link class="nav-link navigation active" aria-current="page" as={Link} to="/home">Home</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link active" aria-current="page" as={Link} to="/home#product">Product</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" as={Link} to="/contact-us">Contact Us</Link>
+                                <Link class="nav-link active" aria-current="page" as={Link} to="/contact-us">Contact-Us</Link>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
